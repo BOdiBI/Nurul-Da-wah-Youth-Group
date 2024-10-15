@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="testimonials.css">
+    <title>Testimonials - NURUL UMMAH DA'WAH YOUTH GROUP</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">NURUL UMMAH</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>What Our Members Say</h1>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Joining the Nurul Ummah group has changed my life for the better!"</p>
+                <p>- Aisha M.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The projects they run are truly impactful in our community."</p>
+                <p>- Mohammed K.</p>
+            </div>
+            <div class="testimonial">
+                <p>"I love volunteering and being part of such a supportive family!"</p>
+                <p>- Fatima R.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 NURUL UMMAH DA'WAH YOUTH GROUP | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

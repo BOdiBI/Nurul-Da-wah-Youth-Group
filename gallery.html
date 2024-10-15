@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gallery - NURUL UMMAH DA'WAH YOUTH GROUP</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="group-logo" src="Images/50 by 100 logo.png" alt="Group Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Gallery</h1>
+        <p>Check out our recent events and activities!</p>
+        <div class="gallery">
+            <img src="Images/WhatsApp 1.jpeg" alt="Event 1" onclick="openModal(this)">
+            <img src="Images/WhatsApp 2.jpeg" alt="Event 2" onclick="openModal(this)">
+            <img src="Images/WhatsApp 3.jpeg" alt="Event 3" onclick="openModal(this)">
+            <img src="Images/WhatsApp 4.jpeg" alt="Event 4" onclick="openModal(this)">
+            <img src="Images/WhatsApp 5.jpeg" alt="Event 5" onclick="openModal(this)">
+            <img src="Images/WhatsApp 6.jpeg" alt="Event 6" onclick="openModal(this)">
+            <img src="Images/WhatsApp 7.jpeg" alt="Event 7" onclick="openModal(this)">
+        </div>
+
+        <!-- Modal for enlarged images -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img" alt="">
+            <div id="caption"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 NURUL UMMAH DA'WAH YOUTH GROUP | <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
