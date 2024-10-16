@@ -308,3 +308,26 @@ section.goals li {
     height: auto; /* Maintain aspect ratio */
     width: 200px; /* Set your desired width */
 }
+
+/* Styles for centering the donation buttons */
+.donation-buttons {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 1rem; /* Adds space between the buttons */
+    margin-top: 2rem; /* Adds some space above the buttons */
+}
+
+/* Make sure buttons take up equal size */
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff; /* Customize your button color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darken on hover */
+}
